@@ -1,4 +1,4 @@
-package com.codingfan.standard;
+package com.github.zhaojiacan.standard;
 
 import org.springframework.util.StringUtils;
 

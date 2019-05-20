@@ -1,4 +1,4 @@
-package com.codingfan.pojo;
+package com.github.zhaojiacan.pojo;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;

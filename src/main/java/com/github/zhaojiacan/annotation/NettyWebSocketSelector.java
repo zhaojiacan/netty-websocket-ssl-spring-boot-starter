@@ -1,9 +1,9 @@
-package com.codingfan.annotation;
+package com.github.zhaojiacan.annotation;
 
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.Ordered;
 import org.springframework.core.type.AnnotationMetadata;
-import com.codingfan.standard.ServerEndpointExporter;
+import com.github.zhaojiacan.standard.ServerEndpointExporter;
 
 public class NettyWebSocketSelector implements ImportSelector, Ordered {
 

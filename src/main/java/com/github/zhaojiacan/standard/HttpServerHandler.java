@@ -1,6 +1,7 @@
-package com.codingfan.standard;
+package com.github.zhaojiacan.standard;
 
-import com.codingfan.pojo.ParameterMap;
+import com.github.zhaojiacan.pojo.ParameterMap;
+import com.github.zhaojiacan.pojo.PojoEndpointServer;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
 import io.netty.buffer.Unpooled;
@@ -13,7 +14,6 @@ import io.netty.handler.codec.http.websocketx.extensions.compression.WebSocketSe
 import io.netty.handler.timeout.IdleStateHandler;
 import io.netty.util.CharsetUtil;
 import org.springframework.util.StringUtils;
-import com.codingfan.pojo.PojoEndpointServer;
 
 import java.io.InputStream;
 import java.util.Set;

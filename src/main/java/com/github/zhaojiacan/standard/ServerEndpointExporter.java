@@ -1,7 +1,9 @@
-package com.codingfan.standard;
+package com.github.zhaojiacan.standard;
 
-import com.codingfan.annotation.ServerEndpoint;
-import com.codingfan.exception.DeploymentException;
+import com.github.zhaojiacan.annotation.ServerEndpoint;
+import com.github.zhaojiacan.exception.DeploymentException;
+import com.github.zhaojiacan.pojo.PojoEndpointServer;
+import com.github.zhaojiacan.pojo.PojoMethodMapping;
 import org.springframework.beans.factory.SmartInitializingSingleton;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -9,8 +11,6 @@ import org.springframework.context.support.ApplicationObjectSupport;
 import org.springframework.core.annotation.AnnotatedElementUtils;
 import org.springframework.core.env.Environment;
 import org.springframework.util.StringUtils;
-import com.codingfan.pojo.PojoEndpointServer;
-import com.codingfan.pojo.PojoMethodMapping;
 
 import java.net.InetSocketAddress;
 import java.util.HashMap;

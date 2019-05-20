@@ -1,4 +1,4 @@
-package com.codingfan.autoconfigure;
+package com.github.zhaojiacan.autoconfigure;
 
 import javax.net.ssl.KeyManagerFactory;
 import javax.net.ssl.SSLContext;

@@ -1,6 +1,7 @@
-package com.codingfan.standard;
+package com.github.zhaojiacan.standard;
 
-import com.codingfan.autoconfigure.SslUtil;
+import com.github.zhaojiacan.autoconfigure.SslUtil;
+import com.github.zhaojiacan.pojo.PojoEndpointServer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -11,7 +12,6 @@ import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.ssl.SslHandler;
-import com.codingfan.pojo.PojoEndpointServer;
 
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLEngine;

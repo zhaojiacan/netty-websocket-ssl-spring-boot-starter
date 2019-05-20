@@ -1,4 +1,4 @@
-package com.codingfan.annotation;
+package com.github.zhaojiacan.annotation;
 
 import org.springframework.context.annotation.Import;
 

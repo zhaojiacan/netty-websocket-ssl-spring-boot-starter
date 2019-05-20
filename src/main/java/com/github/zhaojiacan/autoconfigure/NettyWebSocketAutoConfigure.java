@@ -1,8 +1,8 @@
-package com.codingfan.autoconfigure;
+package com.github.zhaojiacan.autoconfigure;
 
-import com.codingfan.annotation.EnableWebSocket;
+import com.github.zhaojiacan.annotation.EnableWebSocket;
+import com.github.zhaojiacan.standard.ServerEndpointExporter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
-import com.codingfan.standard.ServerEndpointExporter;
 
 @EnableWebSocket
 @ConditionalOnMissingBean(ServerEndpointExporter.class)

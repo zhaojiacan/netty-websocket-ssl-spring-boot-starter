@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.codingfan.autoconfigure.NettyWebSocketAutoConfigure
+com.github.zhaojiacan.autoconfigure.NettyWebSocketAutoConfigure

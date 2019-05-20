@@ -1,4 +1,4 @@
-package com.codingfan.exception;
+package com.github.zhaojiacan.exception;
 
 public class DeploymentException extends Exception {
 

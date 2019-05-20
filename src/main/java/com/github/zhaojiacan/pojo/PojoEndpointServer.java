@@ -1,6 +1,6 @@
-package com.codingfan.pojo;
+package com.github.zhaojiacan.pojo;
 
-import com.codingfan.standard.ServerEndpointConfig;
+import com.github.zhaojiacan.standard.ServerEndpointConfig;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;

@@ -1,10 +1,10 @@
-package com.codingfan.standard;
+package com.github.zhaojiacan.standard;
 
+import com.github.zhaojiacan.pojo.PojoEndpointServer;
 import io.netty.channel.ChannelFutureListener;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.websocketx.*;
-import com.codingfan.pojo.PojoEndpointServer;
 
 class WebSocketServerHandler extends SimpleChannelInboundHandler<WebSocketFrame> {
 
