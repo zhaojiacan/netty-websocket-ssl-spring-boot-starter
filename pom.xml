@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.codingfan</groupId>
+    <groupId>com.coding-fan</groupId>
     <artifactId>netty-websocket-ssl-spring-boot-starter</artifactId>
     <version>0.1.0</version>
 
@@ -29,10 +29,10 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/YeautyYE/netty-websocket-spring-boot-starter.git</connection>
-        <developerConnection>scm:git:ssh://github.com/YeautyYE/netty-websocket-spring-boot-starter.git
+        <connection>scm:git:git://github.com/zhaojiacan/netty-websocket-ssl-spring-boot-starter.git</connection>
+        <developerConnection>scm:git:ssh://github.com/zhaojiacan/netty-websocket-ssl-spring-boot-starter.git
         </developerConnection>
-        <url>https://github.com/YeautyYE/netty-websocket-spring-boot-starter</url>
+        <url>https://github.com/zhaojiacan/netty-websocket-ssl-spring-boot-starter.git</url>
     </scm>
 
     <properties>
