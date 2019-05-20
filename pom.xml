@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.codingfan</groupId>
-    <artifactId>netty-websocket-spring-boot-starter</artifactId>
+    <artifactId>netty-websocket-ssl-spring-boot-starter</artifactId>
     <version>0.1.0</version>
 
     <name>netty-websocket-spring-boot-starter</name>
