@@ -3,12 +3,10 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.github.zhaojiacan</groupId>
     <artifactId>netty-websocket-ssl-spring-boot-starter</artifactId>
     <version>0.1.0</version>
-
-    <name>netty-websocket-spring-boot-starter</name>
+    <name>netty-websocket-ssl-spring-boot-starter</name>
     <description>
         netty-websocket-spring-boot-starter is a Java WebSocket Framework based on Netty
     </description>
@@ -23,8 +21,10 @@
 
     <developers>
         <developer>
-            <name>francis</name>
+            <name>zhaojiacan</name>
             <email>898435128@qq.com</email>
+            <organization>zhaojiacan</organization>
+            <url>https://github.com/zhaojiacan</url>
         </developer>
     </developers>
 
@@ -34,10 +34,10 @@
         </developerConnection>
         <url>https://github.com/zhaojiacan/netty-websocket-ssl-spring-boot-starter.git</url>
     </scm>
-
     <properties>
         <netty.version>4.1.25.Final</netty.version>
         <spring-boot.version>2.0.0.RELEASE</spring-boot.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
@@ -58,7 +58,6 @@
             <version>${netty.version}</version>
         </dependency>
     </dependencies>
-
 
     <profiles>
         <profile>
@@ -114,27 +113,30 @@
                         </executions>
                     </plugin>
                     <!-- Nexus Staging Plugin, auto deploy close and release -->
-                    <plugin>
-                        <groupId>org.sonatype.plugins</groupId>
-                        <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.8</version>
-                        <extensions>true</extensions>
-                        <configuration>
-                            <serverId>ossrh</serverId>
-                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                        </configuration>
-                    </plugin>
+                    <!--<plugin>-->
+                        <!--<groupId>org.sonatype.plugins</groupId>-->
+                        <!--<artifactId>nexus-staging-maven-plugin</artifactId>-->
+                        <!--<version>1.6.8</version>-->
+                        <!--<extensions>true</extensions>-->
+                        <!--<configuration>-->
+                            <!--<serverId>ossrh</serverId>-->
+                            <!--<nexusUrl>https://oss.sonatype.org/</nexusUrl>-->
+                            <!--<autoReleaseAfterClose>true</autoReleaseAfterClose>-->
+                        <!--</configuration>-->
+                    <!--</plugin>-->
                 </plugins>
             </build>
 
             <distributionManagement>
                 <snapshotRepository>
-                    <id>ossrh</id>
+                    <!-- 这个id需要在setting.xml中设置  -->
+                    <id>snapshot</id>
+                    <!-- 这里的url就是Issue中回复的snapshots 的repo地址-->
                     <url>https://oss.sonatype.org/content/repositories/snapshots</url>
                 </snapshotRepository>
                 <repository>
-                    <id>ossrh</id>
+                    <id>releases</id>
+                    <!-- 这里的url就是Issue中回复的staging 的repo地址-->
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
                 </repository>
             </distributionManagement>
@@ -154,5 +156,6 @@
             </plugin>
         </plugins>
     </build>
+
 
 </project>

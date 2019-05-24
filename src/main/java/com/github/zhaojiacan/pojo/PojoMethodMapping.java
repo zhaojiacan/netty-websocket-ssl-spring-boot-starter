@@ -1,12 +1,10 @@
 package com.github.zhaojiacan.pojo;
 
-import com.codingfan.annotation.*;
 import com.github.zhaojiacan.annotation.*;
 import com.github.zhaojiacan.exception.DeploymentException;
 import io.netty.handler.codec.http.HttpHeaders;
 import org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;
 import org.springframework.context.ApplicationContext;
-import org.yeauty.annotation.*;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
