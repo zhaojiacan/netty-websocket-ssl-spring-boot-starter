@@ -35,7 +35,7 @@
         <url>https://github.com/zhaojiacan/netty-websocket-ssl-spring-boot-starter.git</url>
     </scm>
     <properties>
-        <netty.version>4.1.25.Final</netty.version>
+        <netty.version>4.1.50.Final</netty.version>
         <spring-boot.version>2.0.0.RELEASE</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
